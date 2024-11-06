@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       {/* Header with Logo */}
-      <header className="pt-8 pb-4 px-4 w-full flex justify-center border border-red-500">
-        <div className="container mx-auto flex justify-center items-center border border-blue-500">
-          <Link href="/" className="flex items-center gap-3 border border-green-500">
+      <header className="pt-8 pb-4 px-4 w-full flex justify-center">
+        <div className="container mx-auto flex justify-center items-center">
+          <Link href="/" className="flex items-center gap-3">
             <Image
               src="/bird logo.jpg"
               alt="Bird Logo"
@@ -22,9 +22,9 @@ export default function Home() {
       </header>
 
       {/* Navigation */}
-      <nav className="bg-[#f8f0ff] py-4 w-full border border-yellow-500">
-        <div className="container mx-auto flex justify-center border border-purple-500">
-          <ul className="flex flex-row items-center space-x-8 text-gray-600 border border-pink-500">
+      <nav className="bg-[#f8f0ff] py-4 w-full">
+        <div className="container mx-auto flex justify-center">
+          <ul className="flex flex-row items-center space-x-8 text-gray-600">
             <li>
               <Link href="/" className="hover:text-gray-800 border-b-2 border-gray-400">
                 home
