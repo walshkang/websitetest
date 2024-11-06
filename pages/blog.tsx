@@ -8,7 +8,7 @@ export default function Blog() {
         <div className="container mx-auto flex flex-col items-center justify-center">
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/placeholder.svg?height=40&width=40"
+              src="/bird logo.jpg"
               alt="Bird Logo"
               width={40}
               height={40}
