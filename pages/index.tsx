@@ -37,7 +37,7 @@ export default function Home() {
             </li>
             <li>
               <Link href="/media" className="hover:text-gray-800">
-                media
+               what I&apos;m reading / watching / listening to
               </Link>
             </li>
             <li>
